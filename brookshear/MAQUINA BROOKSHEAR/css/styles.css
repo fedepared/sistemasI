@@ -1,0 +1,496 @@
+/* http://cssbeautify.com/  */
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+body {
+    background: #000000;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    overflow: hidden;
+	display: table;
+	position: relative;
+}
+
+.fila {
+    background: #000000;
+	clear:both;
+	width:100%;
+	height:3.7%;
+}
+
+.filaDoble {
+    background: #000000;
+	clear:both;
+	width:100%;
+	height:7.4%;
+}
+
+.regla {
+    height: 100%;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    border: 0px;
+    padding: 0px;
+    text-align:center;
+    background: #0070C0;
+    float:left;
+    box-shadow:inset 0px 0px 0px 1px #000000;
+}
+
+.boton {
+    height: 100%;
+    margin: 0;
+    border: 0px;
+    padding: 0px;
+    background: #40B0F0;
+    float:left;
+    box-shadow:inset 0px 0px 0px 1px #000000;
+}
+
+.celda {
+    height: 100%;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    border: 0px;
+    padding: 0px;
+    text-align:center;
+    background: #0070C0;
+    float:left;
+    box-shadow:inset 0px 0px 0px 1px #000000;
+}
+
+.celdamem {
+    color: blue;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 0px;
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    box-shadow:inset 0px 0px 0px 1px #000000;
+}
+
+.celdacp {
+    color: blue;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 0px;
+    margin: 0;
+    padding: 0px;
+    box-shadow:inset 0px 0px 0px 1px #000000; 
+}
+
+.celdari {
+    color: red;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 0px;
+    margin: 0;
+    padding: 0px;
+    box-shadow:inset 0px 0px 0px 1px #000000; 
+}
+
+.celdahex {
+    color: blue;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 0px;
+    margin: 0;
+    padding: 0px;
+    box-shadow:inset 0px 0px 0px 1px #000000; 
+}
+
+.celdac2 {
+    color: blue;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 0px;
+    margin: 0;
+    padding: 0px;
+    box-shadow:inset 0px 0px 0px 1px #000000; 
+}
+
+.celdafp {
+    color: blue;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 0px;
+    margin: 0;
+    padding: 0px;
+    box-shadow:inset 0px 0px 0px 1px #000000; 
+}
+
+#contenedor {
+    height: 100%;
+    margin: 0;
+    border: 0px;
+    padding: 0px;
+    background: #0070C0;
+    float:left;
+    box-shadow:inset 0px 0px 0px 1px #000000;
+} 
+
+.celdacom {
+    color: green;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    border: 0px;
+    box-shadow:inset 0 0 0 1px black;
+    text-align: center;
+}
+
+.botonCONV {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: #40B0F0 url('../img/decode.png') center no-repeat; 
+    background-size: contain;
+    box-shadow:inset 0 0 0 1px black;  
+}
+
+.botonLOAD {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-shadow:inset 0 0 0 1px black;  
+    background: #40B0F0 url('../img/load.png') center no-repeat;
+    background-size: contain;
+}
+
+.botonRESET {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-shadow:inset 0 0 0 1px black;  
+    background: #40B0F0 url('../img/clear.png') center no-repeat;
+    background-size: contain;
+}
+
+.botonRUN {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-shadow:inset 0 0 0 1px black;  
+    background: #40B0F0 url('../img/run.png') center no-repeat;
+    background-size: contain;
+}
+
+.botonTRACE {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-shadow:inset 0 0 0 1px black;  
+    background: #40B0F0 url('../img/step.png') center no-repeat;
+    background-size: contain;
+}
+
+.botonASM {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-shadow:inset 0 0 0 1px black;  
+    background: #40B0F0 url('../img/list.png') center no-repeat;
+    background-size: contain;
+}
+
+.n0 {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/0.png') center no-repeat;
+    background-size: contain;
+}
+
+.n1 {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/1.png') center no-repeat;
+    background-size: contain;
+}
+
+.n2 {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/2.png') center no-repeat;
+    background-size: contain;
+}
+
+.n3 {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/3.png') center no-repeat;
+    background-size: contain;
+}
+
+.n4 {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/4.png') center no-repeat;
+    background-size: contain;
+}
+
+.n5 {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/5.png') center no-repeat;
+    background-size: contain;
+}
+
+.n6 {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/6.png') center no-repeat;
+    background-size: contain;
+}
+
+.n7 {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/7.png') center no-repeat;
+    background-size: contain;
+}
+
+.n8 {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/8.png') center no-repeat;
+    background-size: contain;
+}
+
+.n9 {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/9.png') center no-repeat;
+    background-size: contain;
+}
+
+.nA {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/A.png') center no-repeat;
+    background-size: contain;
+}
+
+.nB {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/B.png') center no-repeat;
+    background-size: contain;
+}
+
+.nC {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/C.png') center no-repeat;
+    background-size: contain;
+}
+
+.nD {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/D.png') center no-repeat;
+    background-size: contain;
+}
+
+.nE {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/E.png') center no-repeat;
+    background-size: contain;
+}
+
+.nF {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/F.png') center no-repeat;
+    background-size: contain;
+}
+
+.memoria {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: black url('../img/memoria.png') center no-repeat;
+    background-size: contain;
+}
+
+.registros {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: black url('../img/registros.png') center no-repeat;
+    background-size: contain;
+}
+
+.monitor {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: black url('../img/monitor.png') center no-repeat;
+    background-size: contain;
+}
+
+.cp {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/cp.png') right no-repeat;
+    background-size: contain;
+}
+
+.ri {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/ri.png') right no-repeat;
+    background-size: contain;
+}
+
+.hex {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/hex.png') right no-repeat;
+    background-size: contain;
+}
+
+.c2 {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/c2.png') right no-repeat;
+    background-size: contain;
+}
+
+.fp {
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    float:left;
+    box-shadow:inset 0 0 0 1px black;
+    background: #0070C0 url('../img/fp.png') right no-repeat;
+    background-size: contain;
+}
+
